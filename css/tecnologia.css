@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px;
+}
+
+.noticia h3 {
+    width: 100%;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.noticia div {
+    display: flex;
+    margin: 20px;
+}
+
+.noticia div img {
+    width: 40vw;
+    object-fit: contain;
+}
+
+.noticia div p {
+    font-size: 15px;
+    padding: 30px;
+}
